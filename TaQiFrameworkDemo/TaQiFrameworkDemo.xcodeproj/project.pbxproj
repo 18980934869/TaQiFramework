@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1199F66B1D0E55A40067FA22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F66A1D0E55A40067FA22 /* main.m */; };
+		1199F66E1D0E55A40067FA22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F66D1D0E55A40067FA22 /* AppDelegate.m */; };
+		1199F6711D0E55A40067FA22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F6701D0E55A40067FA22 /* ViewController.m */; };
+		1199F6741D0E55A40067FA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1199F6721D0E55A40067FA22 /* Main.storyboard */; };
+		1199F6761D0E55A40067FA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1199F6751D0E55A40067FA22 /* Assets.xcassets */; };
+		1199F6791D0E55A40067FA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1199F6771D0E55A40067FA22 /* LaunchScreen.storyboard */; };
+		1199F6841D0E55A40067FA22 /* TaQiFrameworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F6831D0E55A40067FA22 /* TaQiFrameworkDemoTests.m */; };
+		1199F68F1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F68E1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1199F6801D0E55A40067FA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1199F65E1D0E55A40067FA22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1199F6651D0E55A40067FA22;
+			remoteInfo = TaQiFrameworkDemo;
+		};
+		1199F68B1D0E55A40067FA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1199F65E1D0E55A40067FA22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1199F6651D0E55A40067FA22;
+			remoteInfo = TaQiFrameworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1199F6661D0E55A40067FA22 /* TaQiFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaQiFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1199F66A1D0E55A40067FA22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1199F66C1D0E55A40067FA22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1199F66D1D0E55A40067FA22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1199F66F1D0E55A40067FA22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1199F6701D0E55A40067FA22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1199F6731D0E55A40067FA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1199F6751D0E55A40067FA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1199F6781D0E55A40067FA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1199F67A1D0E55A40067FA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1199F67F1D0E55A40067FA22 /* TaQiFrameworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaQiFrameworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1199F6831D0E55A40067FA22 /* TaQiFrameworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaQiFrameworkDemoTests.m; sourceTree = "<group>"; };
+		1199F6851D0E55A40067FA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1199F68A1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaQiFrameworkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1199F68E1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaQiFrameworkDemoUITests.m; sourceTree = "<group>"; };
+		1199F6901D0E55A40067FA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1199F6631D0E55A40067FA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1199F67C1D0E55A40067FA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1199F6871D0E55A40067FA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1199F65D1D0E55A40067FA22 = {
+			isa = PBXGroup;
+			children = (
+				1199F6681D0E55A40067FA22 /* TaQiFrameworkDemo */,
+				1199F6821D0E55A40067FA22 /* TaQiFrameworkDemoTests */,
+				1199F68D1D0E55A40067FA22 /* TaQiFrameworkDemoUITests */,
+				1199F6671D0E55A40067FA22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1199F6671D0E55A40067FA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1199F6661D0E55A40067FA22 /* TaQiFrameworkDemo.app */,
+				1199F67F1D0E55A40067FA22 /* TaQiFrameworkDemoTests.xctest */,
+				1199F68A1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1199F6681D0E55A40067FA22 /* TaQiFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1199F66C1D0E55A40067FA22 /* AppDelegate.h */,
+				1199F66D1D0E55A40067FA22 /* AppDelegate.m */,
+				1199F66F1D0E55A40067FA22 /* ViewController.h */,
+				1199F6701D0E55A40067FA22 /* ViewController.m */,
+				1199F6721D0E55A40067FA22 /* Main.storyboard */,
+				1199F6751D0E55A40067FA22 /* Assets.xcassets */,
+				1199F6771D0E55A40067FA22 /* LaunchScreen.storyboard */,
+				1199F67A1D0E55A40067FA22 /* Info.plist */,
+				1199F6691D0E55A40067FA22 /* Supporting Files */,
+			);
+			path = TaQiFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		1199F6691D0E55A40067FA22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1199F66A1D0E55A40067FA22 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1199F6821D0E55A40067FA22 /* TaQiFrameworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1199F6831D0E55A40067FA22 /* TaQiFrameworkDemoTests.m */,
+				1199F6851D0E55A40067FA22 /* Info.plist */,
+			);
+			path = TaQiFrameworkDemoTests;
+			sourceTree = "<group>";
+		};
+		1199F68D1D0E55A40067FA22 /* TaQiFrameworkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1199F68E1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.m */,
+				1199F6901D0E55A40067FA22 /* Info.plist */,
+			);
+			path = TaQiFrameworkDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1199F6651D0E55A40067FA22 /* TaQiFrameworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1199F6931D0E55A40067FA22 /* Build configuration list for PBXNativeTarget "TaQiFrameworkDemo" */;
+			buildPhases = (
+				1199F6621D0E55A40067FA22 /* Sources */,
+				1199F6631D0E55A40067FA22 /* Frameworks */,
+				1199F6641D0E55A40067FA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaQiFrameworkDemo;
+			productName = TaQiFrameworkDemo;
+			productReference = 1199F6661D0E55A40067FA22 /* TaQiFrameworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1199F67E1D0E55A40067FA22 /* TaQiFrameworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1199F6961D0E55A40067FA22 /* Build configuration list for PBXNativeTarget "TaQiFrameworkDemoTests" */;
+			buildPhases = (
+				1199F67B1D0E55A40067FA22 /* Sources */,
+				1199F67C1D0E55A40067FA22 /* Frameworks */,
+				1199F67D1D0E55A40067FA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1199F6811D0E55A40067FA22 /* PBXTargetDependency */,
+			);
+			name = TaQiFrameworkDemoTests;
+			productName = TaQiFrameworkDemoTests;
+			productReference = 1199F67F1D0E55A40067FA22 /* TaQiFrameworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1199F6891D0E55A40067FA22 /* TaQiFrameworkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1199F6991D0E55A40067FA22 /* Build configuration list for PBXNativeTarget "TaQiFrameworkDemoUITests" */;
+			buildPhases = (
+				1199F6861D0E55A40067FA22 /* Sources */,
+				1199F6871D0E55A40067FA22 /* Frameworks */,
+				1199F6881D0E55A40067FA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1199F68C1D0E55A40067FA22 /* PBXTargetDependency */,
+			);
+			name = TaQiFrameworkDemoUITests;
+			productName = TaQiFrameworkDemoUITests;
+			productReference = 1199F68A1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1199F65E1D0E55A40067FA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TaQi;
+				TargetAttributes = {
+					1199F6651D0E55A40067FA22 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1199F67E1D0E55A40067FA22 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1199F6651D0E55A40067FA22;
+					};
+					1199F6891D0E55A40067FA22 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1199F6651D0E55A40067FA22;
+					};
+				};
+			};
+			buildConfigurationList = 1199F6611D0E55A40067FA22 /* Build configuration list for PBXProject "TaQiFrameworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1199F65D1D0E55A40067FA22;
+			productRefGroup = 1199F6671D0E55A40067FA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1199F6651D0E55A40067FA22 /* TaQiFrameworkDemo */,
+				1199F67E1D0E55A40067FA22 /* TaQiFrameworkDemoTests */,
+				1199F6891D0E55A40067FA22 /* TaQiFrameworkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1199F6641D0E55A40067FA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1199F6791D0E55A40067FA22 /* LaunchScreen.storyboard in Resources */,
+				1199F6761D0E55A40067FA22 /* Assets.xcassets in Resources */,
+				1199F6741D0E55A40067FA22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1199F67D1D0E55A40067FA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1199F6881D0E55A40067FA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1199F6621D0E55A40067FA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1199F6711D0E55A40067FA22 /* ViewController.m in Sources */,
+				1199F66E1D0E55A40067FA22 /* AppDelegate.m in Sources */,
+				1199F66B1D0E55A40067FA22 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1199F67B1D0E55A40067FA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1199F6841D0E55A40067FA22 /* TaQiFrameworkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1199F6861D0E55A40067FA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1199F68F1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1199F6811D0E55A40067FA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1199F6651D0E55A40067FA22 /* TaQiFrameworkDemo */;
+			targetProxy = 1199F6801D0E55A40067FA22 /* PBXContainerItemProxy */;
+		};
+		1199F68C1D0E55A40067FA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1199F6651D0E55A40067FA22 /* TaQiFrameworkDemo */;
+			targetProxy = 1199F68B1D0E55A40067FA22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1199F6721D0E55A40067FA22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1199F6731D0E55A40067FA22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1199F6771D0E55A40067FA22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1199F6781D0E55A40067FA22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1199F6911D0E55A40067FA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1199F6921D0E55A40067FA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1199F6941D0E55A40067FA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaQiFrameworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hu.TaQiFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1199F6951D0E55A40067FA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaQiFrameworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hu.TaQiFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1199F6971D0E55A40067FA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaQiFrameworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hu.TaQiFrameworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaQiFrameworkDemo.app/TaQiFrameworkDemo";
+			};
+			name = Debug;
+		};
+		1199F6981D0E55A40067FA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaQiFrameworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hu.TaQiFrameworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaQiFrameworkDemo.app/TaQiFrameworkDemo";
+			};
+			name = Release;
+		};
+		1199F69A1D0E55A40067FA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaQiFrameworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hu.TaQiFrameworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaQiFrameworkDemo;
+			};
+			name = Debug;
+		};
+		1199F69B1D0E55A40067FA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaQiFrameworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hu.TaQiFrameworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaQiFrameworkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1199F6611D0E55A40067FA22 /* Build configuration list for PBXProject "TaQiFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1199F6911D0E55A40067FA22 /* Debug */,
+				1199F6921D0E55A40067FA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1199F6931D0E55A40067FA22 /* Build configuration list for PBXNativeTarget "TaQiFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1199F6941D0E55A40067FA22 /* Debug */,
+				1199F6951D0E55A40067FA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1199F6961D0E55A40067FA22 /* Build configuration list for PBXNativeTarget "TaQiFrameworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1199F6971D0E55A40067FA22 /* Debug */,
+				1199F6981D0E55A40067FA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1199F6991D0E55A40067FA22 /* Build configuration list for PBXNativeTarget "TaQiFrameworkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1199F69A1D0E55A40067FA22 /* Debug */,
+				1199F69B1D0E55A40067FA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1199F65E1D0E55A40067FA22 /* Project object */;
+}
