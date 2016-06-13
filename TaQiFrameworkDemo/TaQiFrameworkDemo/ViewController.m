@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TaQiNetWorkConfig.h"
+#import "TaQiRequest.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSString *path = NSHomeDirectory();
+    NSLog(@"NSHomeDirectory:%@",path);
+    [TaQiNetWorkConfig initInterfacePathWithFileName:@"NetWorkApi"];
+    [TaQiNetWorkConfig initServerPath:@"http://192.168.0.1:1000"];
+    
+    //[TaQiRequest ]
 }
 
 - (void)didReceiveMemoryWarning {

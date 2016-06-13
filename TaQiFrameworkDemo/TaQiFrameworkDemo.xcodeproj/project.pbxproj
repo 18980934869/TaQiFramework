@@ -15,6 +15,27 @@
 		1199F6791D0E55A40067FA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1199F6771D0E55A40067FA22 /* LaunchScreen.storyboard */; };
 		1199F6841D0E55A40067FA22 /* TaQiFrameworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F6831D0E55A40067FA22 /* TaQiFrameworkDemoTests.m */; };
 		1199F68F1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F68E1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.m */; };
+		1199F6A01D0E5AF50067FA22 /* TaQiEntityBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F69F1D0E5AF50067FA22 /* TaQiEntityBase.m */; };
+		1199F6A31D0E5CE10067FA22 /* TaQiEntityConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F6A21D0E5CE10067FA22 /* TaQiEntityConvert.m */; };
+		1199F7251D0E60AC0067FA22 /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F70F1D0E60AC0067FA22 /* MJDictionaryCache.m */; };
+		1199F7261D0E60AC0067FA22 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7121D0E60AC0067FA22 /* MJExtensionConst.m */; };
+		1199F7271D0E60AC0067FA22 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7141D0E60AC0067FA22 /* MJFoundation.m */; };
+		1199F7281D0E60AC0067FA22 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7161D0E60AC0067FA22 /* MJProperty.m */; };
+		1199F7291D0E60AC0067FA22 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7181D0E60AC0067FA22 /* MJPropertyKey.m */; };
+		1199F72A1D0E60AC0067FA22 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F71A1D0E60AC0067FA22 /* MJPropertyType.m */; };
+		1199F72B1D0E60AC0067FA22 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F71C1D0E60AC0067FA22 /* NSObject+MJClass.m */; };
+		1199F72C1D0E60AC0067FA22 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F71E1D0E60AC0067FA22 /* NSObject+MJCoding.m */; };
+		1199F72D1D0E60AC0067FA22 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7201D0E60AC0067FA22 /* NSObject+MJKeyValue.m */; };
+		1199F72E1D0E60AC0067FA22 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7221D0E60AC0067FA22 /* NSObject+MJProperty.m */; };
+		1199F72F1D0E60AC0067FA22 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7241D0E60AC0067FA22 /* NSString+MJExtension.m */; };
+		1199F7321D0E613C0067FA22 /* TaQiPagerEntityBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7311D0E613C0067FA22 /* TaQiPagerEntityBase.m */; };
+		1199F7351D0E61D90067FA22 /* TaQiQueryEntityBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7341D0E61D90067FA22 /* TaQiQueryEntityBase.m */; };
+		1199F7381D0E62220067FA22 /* TaQiTreeEntityBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7371D0E62220067FA22 /* TaQiTreeEntityBase.m */; };
+		1199F73E1D0E67120067FA22 /* TaQiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F73D1D0E67120067FA22 /* TaQiRequest.m */; };
+		1199F7411D0E78BC0067FA22 /* TaQiNetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7401D0E78BC0067FA22 /* TaQiNetWorkConfig.m */; };
+		1199F7431D0E7B760067FA22 /* NetWorkApi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1199F7421D0E7B760067FA22 /* NetWorkApi.plist */; };
+		1199F7461D0E81920067FA22 /* TaQiResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199F7451D0E81920067FA22 /* TaQiResponseMessage.m */; };
+		5D5385701B5FF755C6007435 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE3BDBB0CA079108E33E142 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +72,49 @@
 		1199F68A1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaQiFrameworkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1199F68E1D0E55A40067FA22 /* TaQiFrameworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaQiFrameworkDemoUITests.m; sourceTree = "<group>"; };
 		1199F6901D0E55A40067FA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1199F69E1D0E5AF50067FA22 /* TaQiEntityBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaQiEntityBase.h; path = ../../TaQiFrameworkCore/Entitys/TaQiEntityBase.h; sourceTree = "<group>"; };
+		1199F69F1D0E5AF50067FA22 /* TaQiEntityBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaQiEntityBase.m; path = ../../TaQiFrameworkCore/Entitys/TaQiEntityBase.m; sourceTree = "<group>"; };
+		1199F6A11D0E5CE10067FA22 /* TaQiEntityConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaQiEntityConvert.h; path = ../../TaQiFrameworkCore/Entitys/TaQiEntityConvert.h; sourceTree = "<group>"; };
+		1199F6A21D0E5CE10067FA22 /* TaQiEntityConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaQiEntityConvert.m; path = ../../TaQiFrameworkCore/Entitys/TaQiEntityConvert.m; sourceTree = "<group>"; };
+		1199F70E1D0E60AC0067FA22 /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJDictionaryCache.h; path = ../../TaQiFrameworkCore/Library/MJExtension/MJDictionaryCache.h; sourceTree = "<group>"; };
+		1199F70F1D0E60AC0067FA22 /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJDictionaryCache.m; path = ../../TaQiFrameworkCore/Library/MJExtension/MJDictionaryCache.m; sourceTree = "<group>"; };
+		1199F7101D0E60AC0067FA22 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = ../../TaQiFrameworkCore/Library/MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		1199F7111D0E60AC0067FA22 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = ../../TaQiFrameworkCore/Library/MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		1199F7121D0E60AC0067FA22 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = ../../TaQiFrameworkCore/Library/MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		1199F7131D0E60AC0067FA22 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = ../../TaQiFrameworkCore/Library/MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		1199F7141D0E60AC0067FA22 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = ../../TaQiFrameworkCore/Library/MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		1199F7151D0E60AC0067FA22 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = ../../TaQiFrameworkCore/Library/MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		1199F7161D0E60AC0067FA22 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = ../../TaQiFrameworkCore/Library/MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		1199F7171D0E60AC0067FA22 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = ../../TaQiFrameworkCore/Library/MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		1199F7181D0E60AC0067FA22 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = ../../TaQiFrameworkCore/Library/MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		1199F7191D0E60AC0067FA22 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = ../../TaQiFrameworkCore/Library/MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		1199F71A1D0E60AC0067FA22 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = ../../TaQiFrameworkCore/Library/MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		1199F71B1D0E60AC0067FA22 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "../../TaQiFrameworkCore/Library/MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		1199F71C1D0E60AC0067FA22 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "../../TaQiFrameworkCore/Library/MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		1199F71D1D0E60AC0067FA22 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "../../TaQiFrameworkCore/Library/MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		1199F71E1D0E60AC0067FA22 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "../../TaQiFrameworkCore/Library/MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		1199F71F1D0E60AC0067FA22 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "../../TaQiFrameworkCore/Library/MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		1199F7201D0E60AC0067FA22 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "../../TaQiFrameworkCore/Library/MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		1199F7211D0E60AC0067FA22 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "../../TaQiFrameworkCore/Library/MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		1199F7221D0E60AC0067FA22 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "../../TaQiFrameworkCore/Library/MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		1199F7231D0E60AC0067FA22 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "../../TaQiFrameworkCore/Library/MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		1199F7241D0E60AC0067FA22 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "../../TaQiFrameworkCore/Library/MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		1199F7301D0E613C0067FA22 /* TaQiPagerEntityBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaQiPagerEntityBase.h; path = ../../TaQiFrameworkCore/Entitys/TaQiPagerEntityBase.h; sourceTree = "<group>"; };
+		1199F7311D0E613C0067FA22 /* TaQiPagerEntityBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaQiPagerEntityBase.m; path = ../../TaQiFrameworkCore/Entitys/TaQiPagerEntityBase.m; sourceTree = "<group>"; };
+		1199F7331D0E61D90067FA22 /* TaQiQueryEntityBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaQiQueryEntityBase.h; path = ../../TaQiFrameworkCore/Entitys/TaQiQueryEntityBase.h; sourceTree = "<group>"; };
+		1199F7341D0E61D90067FA22 /* TaQiQueryEntityBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaQiQueryEntityBase.m; path = ../../TaQiFrameworkCore/Entitys/TaQiQueryEntityBase.m; sourceTree = "<group>"; };
+		1199F7361D0E62220067FA22 /* TaQiTreeEntityBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaQiTreeEntityBase.h; path = ../../TaQiFrameworkCore/Entitys/TaQiTreeEntityBase.h; sourceTree = "<group>"; };
+		1199F7371D0E62220067FA22 /* TaQiTreeEntityBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaQiTreeEntityBase.m; path = ../../TaQiFrameworkCore/Entitys/TaQiTreeEntityBase.m; sourceTree = "<group>"; };
+		1199F73C1D0E67120067FA22 /* TaQiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaQiRequest.h; path = ../../TaQiFrameworkCore/NetWork/TaQiRequest.h; sourceTree = "<group>"; };
+		1199F73D1D0E67120067FA22 /* TaQiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaQiRequest.m; path = ../../TaQiFrameworkCore/NetWork/TaQiRequest.m; sourceTree = "<group>"; };
+		1199F73F1D0E78BC0067FA22 /* TaQiNetWorkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaQiNetWorkConfig.h; path = ../../TaQiFrameworkCore/NetWork/TaQiNetWorkConfig.h; sourceTree = "<group>"; };
+		1199F7401D0E78BC0067FA22 /* TaQiNetWorkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaQiNetWorkConfig.m; path = ../../TaQiFrameworkCore/NetWork/TaQiNetWorkConfig.m; sourceTree = "<group>"; };
+		1199F7421D0E7B760067FA22 /* NetWorkApi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NetWorkApi.plist; sourceTree = "<group>"; };
+		1199F7441D0E81920067FA22 /* TaQiResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaQiResponseMessage.h; path = ../../TaQiFrameworkCore/NetWork/TaQiResponseMessage.h; sourceTree = "<group>"; };
+		1199F7451D0E81920067FA22 /* TaQiResponseMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaQiResponseMessage.m; path = ../../TaQiFrameworkCore/NetWork/TaQiResponseMessage.m; sourceTree = "<group>"; };
+		1CE3BDBB0CA079108E33E142 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60039D81FC00345B2DF4B253 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B1976A983CF44B4B2E24F29E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5385701B5FF755C6007435 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +143,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03B9D812B97E0AB0B2941945 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1976A983CF44B4B2E24F29E /* Pods.debug.xcconfig */,
+				60039D81FC00345B2DF4B253 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0A5E1AFAF4CFA11486A49FA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CE3BDBB0CA079108E33E142 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1199F65D1D0E55A40067FA22 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +167,8 @@
 				1199F6821D0E55A40067FA22 /* TaQiFrameworkDemoTests */,
 				1199F68D1D0E55A40067FA22 /* TaQiFrameworkDemoUITests */,
 				1199F6671D0E55A40067FA22 /* Products */,
+				03B9D812B97E0AB0B2941945 /* Pods */,
+				0A5E1AFAF4CFA11486A49FA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +185,7 @@
 		1199F6681D0E55A40067FA22 /* TaQiFrameworkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1199F69C1D0E581D0067FA22 /* TaQiFrameworkDemo */,
 				1199F66C1D0E55A40067FA22 /* AppDelegate.h */,
 				1199F66D1D0E55A40067FA22 /* AppDelegate.m */,
 				1199F66F1D0E55A40067FA22 /* ViewController.h */,
@@ -110,6 +195,7 @@
 				1199F6771D0E55A40067FA22 /* LaunchScreen.storyboard */,
 				1199F67A1D0E55A40067FA22 /* Info.plist */,
 				1199F6691D0E55A40067FA22 /* Supporting Files */,
+				1199F7421D0E7B760067FA22 /* NetWorkApi.plist */,
 			);
 			path = TaQiFrameworkDemo;
 			sourceTree = "<group>";
@@ -140,6 +226,108 @@
 			path = TaQiFrameworkDemoUITests;
 			sourceTree = "<group>";
 		};
+		1199F69C1D0E581D0067FA22 /* TaQiFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1199F69D1D0E584D0067FA22 /* Core */,
+			);
+			name = TaQiFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		1199F69D1D0E584D0067FA22 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1199F73B1D0E66DE0067FA22 /* NetWork */,
+				1199F73A1D0E628C0067FA22 /* EntityToJson */,
+				1199F7391D0E627C0067FA22 /* JsonToEntity */,
+				1199F70C1D0E605E0067FA22 /* libs */,
+				1199F70B1D0E60480067FA22 /* Entitys */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1199F70B1D0E60480067FA22 /* Entitys */ = {
+			isa = PBXGroup;
+			children = (
+				1199F69E1D0E5AF50067FA22 /* TaQiEntityBase.h */,
+				1199F69F1D0E5AF50067FA22 /* TaQiEntityBase.m */,
+				1199F6A11D0E5CE10067FA22 /* TaQiEntityConvert.h */,
+				1199F6A21D0E5CE10067FA22 /* TaQiEntityConvert.m */,
+				1199F7301D0E613C0067FA22 /* TaQiPagerEntityBase.h */,
+				1199F7311D0E613C0067FA22 /* TaQiPagerEntityBase.m */,
+				1199F7331D0E61D90067FA22 /* TaQiQueryEntityBase.h */,
+				1199F7341D0E61D90067FA22 /* TaQiQueryEntityBase.m */,
+				1199F7361D0E62220067FA22 /* TaQiTreeEntityBase.h */,
+				1199F7371D0E62220067FA22 /* TaQiTreeEntityBase.m */,
+			);
+			name = Entitys;
+			sourceTree = "<group>";
+		};
+		1199F70C1D0E605E0067FA22 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				1199F70D1D0E609A0067FA22 /* MJExtension */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		1199F70D1D0E609A0067FA22 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1199F70E1D0E60AC0067FA22 /* MJDictionaryCache.h */,
+				1199F70F1D0E60AC0067FA22 /* MJDictionaryCache.m */,
+				1199F7101D0E60AC0067FA22 /* MJExtension.h */,
+				1199F7111D0E60AC0067FA22 /* MJExtensionConst.h */,
+				1199F7121D0E60AC0067FA22 /* MJExtensionConst.m */,
+				1199F7131D0E60AC0067FA22 /* MJFoundation.h */,
+				1199F7141D0E60AC0067FA22 /* MJFoundation.m */,
+				1199F7151D0E60AC0067FA22 /* MJProperty.h */,
+				1199F7161D0E60AC0067FA22 /* MJProperty.m */,
+				1199F7171D0E60AC0067FA22 /* MJPropertyKey.h */,
+				1199F7181D0E60AC0067FA22 /* MJPropertyKey.m */,
+				1199F7191D0E60AC0067FA22 /* MJPropertyType.h */,
+				1199F71A1D0E60AC0067FA22 /* MJPropertyType.m */,
+				1199F71B1D0E60AC0067FA22 /* NSObject+MJClass.h */,
+				1199F71C1D0E60AC0067FA22 /* NSObject+MJClass.m */,
+				1199F71D1D0E60AC0067FA22 /* NSObject+MJCoding.h */,
+				1199F71E1D0E60AC0067FA22 /* NSObject+MJCoding.m */,
+				1199F71F1D0E60AC0067FA22 /* NSObject+MJKeyValue.h */,
+				1199F7201D0E60AC0067FA22 /* NSObject+MJKeyValue.m */,
+				1199F7211D0E60AC0067FA22 /* NSObject+MJProperty.h */,
+				1199F7221D0E60AC0067FA22 /* NSObject+MJProperty.m */,
+				1199F7231D0E60AC0067FA22 /* NSString+MJExtension.h */,
+				1199F7241D0E60AC0067FA22 /* NSString+MJExtension.m */,
+			);
+			name = MJExtension;
+			sourceTree = "<group>";
+		};
+		1199F7391D0E627C0067FA22 /* JsonToEntity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JsonToEntity;
+			sourceTree = "<group>";
+		};
+		1199F73A1D0E628C0067FA22 /* EntityToJson */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = EntityToJson;
+			sourceTree = "<group>";
+		};
+		1199F73B1D0E66DE0067FA22 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				1199F73C1D0E67120067FA22 /* TaQiRequest.h */,
+				1199F73D1D0E67120067FA22 /* TaQiRequest.m */,
+				1199F73F1D0E78BC0067FA22 /* TaQiNetWorkConfig.h */,
+				1199F7401D0E78BC0067FA22 /* TaQiNetWorkConfig.m */,
+				1199F7441D0E81920067FA22 /* TaQiResponseMessage.h */,
+				1199F7451D0E81920067FA22 /* TaQiResponseMessage.m */,
+			);
+			name = NetWork;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1199F6931D0E55A40067FA22 /* Build configuration list for PBXNativeTarget "TaQiFrameworkDemo" */;
 			buildPhases = (
+				340426713C3305CC17782442 /* Check Pods Manifest.lock */,
 				1199F6621D0E55A40067FA22 /* Sources */,
 				1199F6631D0E55A40067FA22 /* Frameworks */,
 				1199F6641D0E55A40067FA22 /* Resources */,
+				2350D58AC13393E5BD6CE510 /* Embed Pods Frameworks */,
+				8AB2A852C9F5EB59D0B350E5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +436,7 @@
 			files = (
 				1199F6791D0E55A40067FA22 /* LaunchScreen.storyboard in Resources */,
 				1199F6761D0E55A40067FA22 /* Assets.xcassets in Resources */,
+				1199F7431D0E7B760067FA22 /* NetWorkApi.plist in Resources */,
 				1199F6741D0E55A40067FA22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +457,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2350D58AC13393E5BD6CE510 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		340426713C3305CC17782442 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB2A852C9F5EB59D0B350E5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1199F6621D0E55A40067FA22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1199F7411D0E78BC0067FA22 /* TaQiNetWorkConfig.m in Sources */,
 				1199F6711D0E55A40067FA22 /* ViewController.m in Sources */,
 				1199F66E1D0E55A40067FA22 /* AppDelegate.m in Sources */,
+				1199F7261D0E60AC0067FA22 /* MJExtensionConst.m in Sources */,
+				1199F6A31D0E5CE10067FA22 /* TaQiEntityConvert.m in Sources */,
+				1199F73E1D0E67120067FA22 /* TaQiRequest.m in Sources */,
+				1199F7281D0E60AC0067FA22 /* MJProperty.m in Sources */,
+				1199F72A1D0E60AC0067FA22 /* MJPropertyType.m in Sources */,
+				1199F6A01D0E5AF50067FA22 /* TaQiEntityBase.m in Sources */,
+				1199F7321D0E613C0067FA22 /* TaQiPagerEntityBase.m in Sources */,
+				1199F72E1D0E60AC0067FA22 /* NSObject+MJProperty.m in Sources */,
+				1199F72F1D0E60AC0067FA22 /* NSString+MJExtension.m in Sources */,
+				1199F72C1D0E60AC0067FA22 /* NSObject+MJCoding.m in Sources */,
+				1199F7381D0E62220067FA22 /* TaQiTreeEntityBase.m in Sources */,
 				1199F66B1D0E55A40067FA22 /* main.m in Sources */,
+				1199F7291D0E60AC0067FA22 /* MJPropertyKey.m in Sources */,
+				1199F7351D0E61D90067FA22 /* TaQiQueryEntityBase.m in Sources */,
+				1199F72D1D0E60AC0067FA22 /* NSObject+MJKeyValue.m in Sources */,
+				1199F72B1D0E60AC0067FA22 /* NSObject+MJClass.m in Sources */,
+				1199F7461D0E81920067FA22 /* TaQiResponseMessage.m in Sources */,
+				1199F7251D0E60AC0067FA22 /* MJDictionaryCache.m in Sources */,
+				1199F7271D0E60AC0067FA22 /* MJFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +672,11 @@
 		};
 		1199F6941D0E55A40067FA22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1976A983CF44B4B2E24F29E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TaQiFrameworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hu.TaQiFrameworkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +685,11 @@
 		};
 		1199F6951D0E55A40067FA22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60039D81FC00345B2DF4B253 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TaQiFrameworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hu.TaQiFrameworkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +761,7 @@
 				1199F6951D0E55A40067FA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1199F6961D0E55A40067FA22 /* Build configuration list for PBXNativeTarget "TaQiFrameworkDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +770,7 @@
 				1199F6981D0E55A40067FA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1199F6991D0E55A40067FA22 /* Build configuration list for PBXNativeTarget "TaQiFrameworkDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +779,7 @@
 				1199F69B1D0E55A40067FA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
